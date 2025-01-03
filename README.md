@@ -2,7 +2,7 @@
 A business performance analytics project.  
 
 ## Table of Contents
-1. [About the project](#BUSINESS-PERFORMANCE-SQL-,-EXCEL-&-TABLEAU-PROJECT)
+1. [About the project](#BUSINESS-PERFORMANCE-SQL-EXCEL-TABLEAU-PROJECT)
 1. [Business objective or problem statement.](#Business-objective-or-problem-statement)
 2. [Business metrics.](#BUSINESS-METRICS)
 3. [Tools.](#TOOLS)
