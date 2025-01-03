@@ -1,5 +1,10 @@
 # Business-Performance-Evaluation-Data-Analytics
 A business performance analytics project.  
+[Uploading Sales performance dashboard.twb…]()
+
+
+![BIKESTORE DASHBOARD](https://github.com/user-attachments/assets/415a3140-5287-49c0-9b25-fe338cee2675)
+
 
 ## Table of Contents
 1. [About the project](#ABOUT-THE-PROJECT)
