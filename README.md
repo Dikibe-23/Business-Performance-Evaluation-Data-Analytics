@@ -1,7 +1,7 @@
 # Business-Performance-Evaluation-Data-Analytics
 A business performance analytics project.  
 
-**BUSINESS PERFORMANCE SQL, EXCEL & TABLEAU PROJECT**
+## BUSINESS PERFORMANCE SQL, EXCEL & TABLEAU PROJECT
 
 In this project, we explain how a typical Data Analytics or Business Analytics project will be implemented. The steps are explained below;
 
@@ -15,7 +15,7 @@ Typically, I would begin by consulting with clients and stakeholders to fulfil t
 
 The final report would often include a measure of the initial goal against the outcomes. In other words, we interpret the results of our analysis to demonstrate the essence of the project.
 
-**Business objective or problem statement:**
+## Business objective or problem statement.
 For this particular problem, a start-up business wants to evaluate its business performance across regions, brands, product category and channels of sale. They are particularly interested in the following metrics;
 
 1.	Total & average revenue generated between 2016 – 2018.
@@ -27,5 +27,18 @@ For this particular problem, a start-up business wants to evaluate its business 
 7.	Most profitable customers.
 8.	Sales representative performance by revenue.
 9.	Revenue by brand.
+
+## Steps
+
+### TOOLS
+SQL: This query in this project is written for MSSQL
+First, we create a database if we have don’t already have one using te following command. This step of creating a database can be skipped if we already have a database.
+
+'''
+Create database Bikestore;
+Initialize the database using
+Use bikestore;
+'''
+
 
 
