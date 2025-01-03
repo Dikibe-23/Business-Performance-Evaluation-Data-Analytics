@@ -1,6 +1,7 @@
 # Business-Performance-Evaluation-Data-Analytics
 A business performance analytics project.  
-[Uploading Sales performance dashboard.twb…]()
+
+Link to the tableau dashboard: [Tableau Dashboard](https://public.tableau.com/app/profile/emmanuel.adikaibe7175/viz/Salesperformancedashboard_17356784041270/Dashboard1#1)
 
 
 ![BIKESTORE DASHBOARD](https://github.com/user-attachments/assets/415a3140-5287-49c0-9b25-fe338cee2675)
