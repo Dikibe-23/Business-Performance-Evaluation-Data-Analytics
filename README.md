@@ -3,6 +3,13 @@ A business performance analytics project.
 
 ## BUSINESS PERFORMANCE SQL, EXCEL & TABLEAU PROJECT
 
+## Table of Contents
+1. [Business objective or problem statement.](#problem-statement)
+2. [Business metrics.](#BUSINESS-METRICS)
+3. [Tools.](#TOOLS)
+4. [Steps.](#STEPS)
+5. [Insights.](#INSIGHTS)
+6. 
 In this project, we explain how a typical Data Analytics or Business Analytics project will be implemented. The steps are explained below;
 
 **1.	Understanding the business problems:** In my view, Data Analytics should follow simple and adaptable approach. That is, it can be fine-tuned to fit any kind of project. Although this is a preliminary step in Data Analytics, it helps you as a Data Analyst understand the business needs and as well discuss about your approach to solving the problem.
@@ -17,6 +24,8 @@ The final report would often include a measure of the initial goal against the o
 
 ## Business objective or problem statement.
 For this particular problem, a start-up business wants to evaluate its business performance across regions, brands, product category and channels of sale. They are particularly interested in the following metrics;
+
+## BUSINESS METRICS
 
 1.	Total & average revenue generated between 2016 – 2018.
 2.	Total & average monthly revenue generated between 2016 – 2018.
