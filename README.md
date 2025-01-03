@@ -3,6 +3,9 @@ A business performance analytics project.
 
 Link to the tableau dashboard: [Tableau Dashboard](https://public.tableau.com/app/profile/emmanuel.adikaibe7175/viz/Salesperformancedashboard_17356784041270/Dashboard1#1)
 
+![Tableau-dashboard](https://github.com/user-attachments/assets/4b7c24df-0262-4de7-b7af-5c10a4a1d28c)
+
+
 
 ![BIKESTORE DASHBOARD](https://github.com/user-attachments/assets/415a3140-5287-49c0-9b25-fe338cee2675)
 
