@@ -28,17 +28,64 @@ For this particular problem, a start-up business wants to evaluate its business 
 8.	Sales representative performance by revenue.
 9.	Revenue by brand.
 
-## Steps
-
 ### TOOLS
-SQL: This query in this project is written for MSSQL
+- SQL: 
+This query in this project is written for MSSQL
 First, we create a database if we have don’t already have one using te following command. This step of creating a database can be skipped if we already have a database.
 
-'''
+```
 Create database Bikestore;
+
 Initialize the database using
 Use bikestore;
-'''
+
+SELECT orders.order_id AS [ORDER_ID], CONCAT(customers.first_name, ' ', customers.last_name) AS [CUSTOMERS], stores.city AS [CITY], stores.state AS [STATE], 
+order_date AS [ORDER_DATE], 
+quantity AS [QUANTITY], (order_items.quantity * order_items.list_price) AS [REVENUE], PRODUCT_NAME,
+
+categories.category_name AS [CATEGORY_NAME], CONCAT(staffs.first_name, ' ', staffs.last_name) AS [SALES_REP], brands.brand_name [BRAND_NAME]
+FROM sales.orders
+JOIN sales.customers
+ON orders.customer_id = customers.customer_id
+JOIN sales.order_items
+ON orders.order_id = order_items.order_id
+JOIN production.products
+ON order_items.product_id = products.product_id
+JOIN production.categories
+ON products.category_id = categories.category_id
+JOIN sales.stores
+ON orders.store_id = stores.store_id
+JOIN sales.staffs
+ON orders.staff_id = staffs.staff_id
+JOIN production.brands
+ON products.brand_id = brands.brand_id
+
+GROUP BY
+orders.order_id, CONCAT(customers.first_name,' ', customers.last_name), stores.city, stores.state, customers.city, customers.state,
+CONCAT(staffs.FIRST_NAME, ' ', staffs.LAST_NAME), brands.brand_name,
+orders.order_date, products.product_name,
+categories.category_name, stores.store_name, order_items.list_price,
+order_items.quantity
+
+```
+- MS Excel.
+- Tableau.
+
+## STEPS
+**1. Data collection:**  We used SQL to perform data extraction, transformation and Load (ETL). I wrote SQL queries to extract the required data for my analysis.
+
+**2. Data cleaning with MS Excel:** Connected excel to the database and loaded the extracted data to excel where I cleaned the data this entails removing points in the data such as missing data, duplicates etc. which could impede our analysis.
+
+**3. Data analysis and Visualization:** utilized excel pivot tables to create dashboard showing these Key performance Indicators (KPIs).
+
+**4. Data interpretation:** In this final step, we described how the various KPIs impacted on the business performance or the objectives of the project.
+
+## INSIGHTS
+-	We notice a 42% rise in revenue in the year 2017 and a 47% decrease in the year 2018.
+-	In the year 2018, we see a sharp rise in sales between Feb – April followed by a decline in May through to December.
+-	Baldwin appears to be the most profitable region for the business accounting for about 68% of total revenue.
+
+
 
 
 
